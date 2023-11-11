@@ -144,8 +144,7 @@ except:  # noqa: E722
     pass
 
 
-base_model = 'ChanonUtupon/openthaigpt-merge-lora-llama-2-7B-3470k'
-#lora_weights = 'openthaigpt/openthaigpt-1.0.0-beta-7b-chat'
+base_model = 'openthaigpt/openthaigpt-1.0.0-beta-7b-chat-ckpt-hf'
 lora_weights = None
 load_8bit = True 
 prompt_template = ""
